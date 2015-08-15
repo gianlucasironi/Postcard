@@ -61,6 +61,14 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="URb-J7-kKU"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="us5-pc-RZX">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="144" width="229" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +78,7 @@
                                 <exclude reference="lKK-ha-8if"/>
                                 <exclude reference="rgh-Re-37g"/>
                                 <exclude reference="xrF-Bb-b5L"/>
+                                <exclude reference="us5-pc-RZX"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,14 +88,16 @@
                                 <include reference="lKK-ha-8if"/>
                                 <include reference="rgh-Re-37g"/>
                                 <include reference="xrF-Bb-b5L"/>
+                                <include reference="us5-pc-RZX"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
                         <outlet property="enterMessageTextField" destination="lKK-ha-8if" id="5Ih-1K-EuL"/>
-                        <outlet property="enterNameTextFIeld" destination="ytN-g7-O0V" id="FdP-6R-iKv"/>
+                        <outlet property="enterNameTextField" destination="ytN-g7-O0V" id="V15-nD-4uP"/>
                         <outlet property="mailButton" destination="xrF-Bb-b5L" id="Pne-8v-i9Q"/>
                         <outlet property="messageLabel" destination="rgh-Re-37g" id="LUN-W0-mY5"/>
+                        <outlet property="nameLabel" destination="us5-pc-RZX" id="jzn-B0-oDb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
